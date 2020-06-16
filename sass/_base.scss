@@ -10,6 +10,7 @@ $color-grey-light-4: #ccc;
 $color-grey-dark-1: #262626;
 $color-grey-dark-2: #777;
 $color-grey-dark-3: #999;
+$color-grey-dark-4: #1f1e1e;
 
 $color-white: #fff;
 $color-black: #000;
@@ -38,8 +39,8 @@ body {
 
   background-image: radial-gradient(
     circle at bottom,
-    $color-primary,
-    $color-primary-dark
+    $color-primary-dark,
+    $color-grey-dark-1
   );
   overflow: hidden;
 }
