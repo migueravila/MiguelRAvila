@@ -7,6 +7,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="css/style.css"">
     <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
     <title>Miguel R. Ávila</title>
@@ -43,6 +44,37 @@
           </nav>
         </div>
       </header>
+      <main class="content">
+        <div class="content__photo">
+          <img src="img/profile-photo.jpg" alt="content-photo" />
+        </div>
+        <div class="content__text">
+          <div class="content__text-primary">
+            I'm Miguel <span>R.</span> Ávila
+          </div>
+          <div class="content__text-secondary">
+            A Software Engineer Student
+          </div>
+        </div>
+        <div class="content__links">
+          <a
+            href="https://www.linkedin.com/in/miguellravila/"
+            class="content__links-button"
+            ><i data-feather="circle"></i
+          ></a>
+          <a href="https://github.com/" class="content__links-button"
+            ><i></i
+          ></a>
+          <a
+            href="https://twitter.com/miguellravila"
+            class="content__links-button"
+            ><i></i
+          ></a>
+        </div>
+      </main>
     </div>
+    <script>
+      feather.replace();
+    </script>
   </body>
 </html>
