@@ -1,3 +1,13 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  height: 7.25rem;
+  margin-left: 2rem;
+  padding: 2rem;
+}
 .navigation {
   &__checkbox {
     display: none;
@@ -5,11 +15,11 @@
 
   &__button {
     background-color: $color-white;
-    height: 7rem;
-    width: 7rem;
+    height: 5rem;
+    width: 5rem;
     position: fixed;
-    top: 6rem;
-    right: 6rem;
+    top: 3rem;
+    right: 3rem;
     border-radius: 50%;
     z-index: 2000;
     box-shadow: 0 1rem 3rem rgba($color-black, 0.1);
@@ -18,12 +28,12 @@
   }
 
   &__background {
-    height: 6rem;
-    width: 6rem;
+    height: 4rem;
+    width: 4rem;
     border-radius: 50%;
     position: fixed;
-    top: 6.5rem;
-    right: 6.5rem;
+    top: 3.5rem;
+    right: 3.5rem;
     background-image: radial-gradient(
       $color-primary-light,
       $color-primary-dark
@@ -36,7 +46,7 @@
     height: 100vh;
     position: fixed;
     top: 0;
-    left: 0;
+    left: -50rem;
     z-index: 1500;
 
     opacity: 0;
@@ -98,11 +108,12 @@
   &__checkbox:checked ~ &__nav {
     opacity: 1;
     width: 100%;
+    left: 0;
   }
 
   &__icon {
     position: relative;
-    margin-top: 3.5rem;
+    margin-top: 2.5rem;
 
     &,
     &::before,
