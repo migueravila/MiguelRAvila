@@ -14,7 +14,7 @@
   }
 
   &__button {
-    background-color: $color-white;
+    background-color: $color-primary;
     height: 5rem;
     width: 5rem;
     position: fixed;
@@ -116,7 +116,7 @@
     &::after {
       width: 3rem;
       height: 2px;
-      background-color: $color-primary-light;
+      background-color: $color-white;
       display: inline-block;
     }
 
@@ -143,18 +143,23 @@
   &__button:hover &__icon::after {
     top: 1rem;
   }
-
+  &__checkbox:checked + &__button {
+    background-color: $color-white;
+  }
   &__checkbox:checked + &__button &__icon {
-    background-color: transparent;
+    // background-color: $color-white;
   }
 
   &__checkbox:checked + &__button &__icon::before {
     top: 0;
     transform: rotate(135deg);
+    background-color: $color-primary;
   }
 
   &__checkbox:checked + &__button &__icon::after {
     top: 0;
     transform: rotate(-135deg);
+
+    background-color: $color-primary;
   }
 }

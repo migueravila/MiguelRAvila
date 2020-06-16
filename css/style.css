@@ -16,7 +16,7 @@ body {
   height: 100vh;
   max-width: 100vw;
   max-height: 100vh;
-  background-image: radial-gradient(circle at bottom, #1a5e63, #262626);
+  background-color: #f0eeee;
   overflow: hidden; }
 
 .header {
@@ -33,7 +33,7 @@ body {
   display: none; }
 
 .navigation__button {
-  background-color: #fff;
+  background-color: #028090;
   height: 5rem;
   width: 5rem;
   position: fixed;
@@ -111,7 +111,7 @@ body {
   .navigation__icon, .navigation__icon::before, .navigation__icon::after {
     width: 3rem;
     height: 2px;
-    background-color: #00bfb2;
+    background-color: #fff;
     display: inline-block; }
   .navigation__icon::before, .navigation__icon::after {
     content: "";
@@ -129,13 +129,15 @@ body {
 .navigation__button:hover .navigation__icon::after {
   top: 1rem; }
 
-.navigation__checkbox:checked + .navigation__button .navigation__icon {
-  background-color: transparent; }
+.navigation__checkbox:checked + .navigation__button {
+  background-color: #fff; }
 
 .navigation__checkbox:checked + .navigation__button .navigation__icon::before {
   top: 0;
-  transform: rotate(135deg); }
+  transform: rotate(135deg);
+  background-color: #028090; }
 
 .navigation__checkbox:checked + .navigation__button .navigation__icon::after {
   top: 0;
-  transform: rotate(-135deg); }
+  transform: rotate(-135deg);
+  background-color: #028090; }
