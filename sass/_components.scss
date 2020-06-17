@@ -10,6 +10,9 @@
   height: 4.25rem;
   margin-left: 2rem;
   padding: 3.5rem 1rem;
+  @media only screen and (max-width: $bp-small) {
+    height: 6rem;
+  }
 }
 ////////////////////////
 // N A V I G A T I O N
@@ -31,6 +34,10 @@
     box-shadow: 0 1rem 3rem rgba($color-black, 0.4);
     text-align: center;
     cursor: pointer;
+    @media only screen and (max-width: $bp-small) {
+      height: 6rem;
+      width: 6rem;
+    }
   }
 
   &__background {
@@ -46,6 +53,10 @@
     );
     z-index: 1000;
     transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
+    @media only screen and (max-width: $bp-small) {
+      height: 5rem;
+      width: 5rem;
+    }
   }
 
   &__nav {
@@ -127,6 +138,9 @@
   &__icon {
     position: relative;
     margin-top: 2.5rem;
+    @media only screen and (max-width: $bp-small) {
+      margin-top: 3rem;
+    }
 
     &,
     &::before,

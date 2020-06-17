@@ -31,6 +31,9 @@ body {
   height: 4.25rem;
   margin-left: 2rem;
   padding: 3.5rem 1rem; }
+  @media only screen and (max-width: 37.5em) {
+    .logo {
+      height: 6rem; } }
 
 .navigation__checkbox {
   display: none; }
@@ -47,6 +50,10 @@ body {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.4);
   text-align: center;
   cursor: pointer; }
+  @media only screen and (max-width: 37.5em) {
+    .navigation__button {
+      height: 6rem;
+      width: 6rem; } }
 
 .navigation__background {
   height: 4rem;
@@ -58,6 +65,10 @@ body {
   background-image: radial-gradient(#1a5e63, #00bfb2);
   z-index: 1000;
   transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1); }
+  @media only screen and (max-width: 37.5em) {
+    .navigation__background {
+      height: 5rem;
+      width: 5rem; } }
 
 .navigation__nav {
   height: 100vh;
@@ -119,6 +130,9 @@ body {
 .navigation__icon {
   position: relative;
   margin-top: 2.5rem; }
+  @media only screen and (max-width: 37.5em) {
+    .navigation__icon {
+      margin-top: 3rem; } }
   .navigation__icon, .navigation__icon::before, .navigation__icon::after {
     width: 3rem;
     height: 2px;
