@@ -204,6 +204,9 @@
 
     @media only screen and (max-width: $bp-medium) {
       margin: auto;
+      width: 32%;
+      height: 32vw;
+      margin-bottom: 2rem;
     }
 
     & img {
@@ -224,6 +227,9 @@
       font-size: 8rem;
       font-weight: 300;
       margin-bottom: 1rem;
+      @media only screen and (max-width: $bp-smallest) {
+        font-size: 6rem;
+      }
     }
     &-secondary {
       font-size: 2rem;
@@ -246,9 +252,6 @@
       transition: all 0.2s;
       @media only screen and (max-width: $bp-small) {
         display: block;
-      }
-      @media only screen and (max-width: $bp-smallest) {
-        font-size: 6rem;
       }
     }
   }
