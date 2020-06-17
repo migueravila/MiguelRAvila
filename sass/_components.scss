@@ -189,6 +189,9 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  @media only screen and (max-width: $bp-medium) {
+    flex-direction: column;
+  }
 
   &__photo {
     width: 22%;
@@ -198,6 +201,10 @@
     border: 1.7rem solid $color-primary;
     position: relative;
     margin-right: -7rem;
+
+    @media only screen and (max-width: $bp-medium) {
+      margin: auto;
+    }
 
     & img {
       width: 100%;
@@ -209,6 +216,10 @@
     color: $color-grey-dark-1;
     text-align: center;
     position: relative;
+    @media only screen and (max-width: $bp-small) {
+      display: flex;
+      flex-direction: column;
+    }
     &-primary {
       font-size: 8rem;
       font-weight: 300;
@@ -233,6 +244,12 @@
       color: transparent;
       letter-spacing: 0.2rem;
       transition: all 0.2s;
+      @media only screen and (max-width: $bp-small) {
+        display: block;
+      }
+      @media only screen and (max-width: $bp-smallest) {
+        font-size: 6rem;
+      }
     }
   }
 

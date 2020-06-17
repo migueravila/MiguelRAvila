@@ -16,6 +16,12 @@ $color-grey-dark-4: #1f1e1e;
 $color-white: #fff;
 $color-black: #000;
 
+$bp-largest: 75em;
+$bp-large: 68.75em;
+$bp-medium: 56.25em;
+$bp-small: 37.5em;
+$bp-smallest: 31.25em;
+
 *,
 *::after,
 *::before {
@@ -25,7 +31,11 @@ $color-black: #000;
 }
 
 html {
+  // box-sizing: border-box;
   font-size: 62.5%;
+  @media only screen and (max-width: $bp-large) {
+    font-size: 50%;
+  }
 }
 
 body {
