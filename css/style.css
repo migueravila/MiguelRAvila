@@ -173,7 +173,12 @@ body {
     .content__text-special {
       font-weight: 700;
       transition: all 0.5s ease-in-out;
-      animation: wave 5s ease-in-out infinite; }
+      animation: wave 5s ease-in-out infinite;
+      background-image: linear-gradient(to right, #1a5e63, #00bfb2);
+      -webkit-background-clip: text;
+      color: transparent;
+      letter-spacing: 0.2rem;
+      transition: all 0.2s; }
   .content__links {
     margin-top: 2rem; }
     .content__links-button:not(:last-child) {

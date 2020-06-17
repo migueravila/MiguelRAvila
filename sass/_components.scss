@@ -213,6 +213,17 @@
       font-weight: 700;
       transition: all 0.5s ease-in-out;
       animation: wave 5s ease-in-out infinite;
+
+      background-image: linear-gradient(
+        to right,
+        $color-primary-dark,
+        $color-primary-light
+      );
+
+      -webkit-background-clip: text;
+      color: transparent;
+      letter-spacing: 0.2rem;
+      transition: all 0.2s;
     }
   }
 
