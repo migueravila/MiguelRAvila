@@ -189,7 +189,7 @@
     overflow: hidden;
     border: 1rem solid $color-primary;
     position: relative;
-    // margin-right: 8rem;
+    margin-right: -4rem;
 
     & img {
       width: 100%;
@@ -216,9 +216,17 @@
     margin-top: 2rem;
 
     &-button {
-      color: $color-grey-dark-1;
+      color: $color-primary-dark;
       &:not(:last-child) {
         margin-right: 3rem;
+      }
+    }
+    &-icon {
+      width: 2.8rem;
+      height: 2.8rem;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        transform: translateY(-1rem);
       }
     }
   }
