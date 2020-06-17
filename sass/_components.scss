@@ -40,7 +40,10 @@
     position: fixed;
     top: 3.5rem;
     right: 3.5rem;
-    background-image: radial-gradient($color-primary, $color-primary-dark);
+    background-image: radial-gradient(
+      $color-primary-dark,
+      $color-primary-light
+    );
     z-index: 1000;
     transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
   }
@@ -173,16 +176,20 @@
 // M A I N
 ///////////////
 .content {
+  margin-top: 8rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-around;
+
   &__photo {
-    width: 20%;
-    height: 20vw;
-    margin-bottom: 2rem;
-    border: 10px solid white;
+    width: 22%;
+    height: 22vw;
     border-radius: 50%;
     overflow: hidden;
+    border: 1rem solid $color-primary;
+    position: relative;
+    // margin-right: 8rem;
 
     & img {
       width: 100%;
@@ -191,13 +198,28 @@
     }
   }
   &__text {
+    color: $color-grey-dark-1;
+    text-align: center;
     &-primary {
+      font-size: 8rem;
+      font-weight: 300;
+      margin-bottom: 1rem;
     }
     &-secondary {
+      font-size: 2rem;
+    }
+    &-special {
+      font-weight: 700;
     }
   }
   &__links {
+    margin-top: 2rem;
+
     &-button {
+      color: $color-grey-dark-1;
+      &:not(:last-child) {
+        margin-right: 3rem;
+      }
     }
   }
 }
