@@ -78,16 +78,22 @@ body {
 .navigation__item {
   margin: 1rem; }
 
+.navigation__icon-link {
+  width: 3.2rem;
+  height: 3.2rem;
+  margin-right: 1.3rem; }
+
 .navigation__link:link, .navigation__link:visited {
   display: inline-block;
-  font-size: 3rem;
-  font-weight: 300;
+  font-size: 4rem;
+  font-weight: 400;
   padding: 1rem 2rem;
   color: #fff;
   text-decoration: none;
   background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
   background-size: 220%;
-  transition: all 0.4s; }
+  transition: all 0.4s;
+  border-radius: 2rem; }
   .navigation__link:link span, .navigation__link:visited span {
     margin-right: 1.5rem;
     display: inline-block; }
@@ -95,7 +101,9 @@ body {
 .navigation__link:hover, .navigation__link:active {
   background-position: 100%;
   color: #028090;
-  transform: translateX(1rem); }
+  transform: translateX(1rem);
+  outline: none;
+  border-radius: 5rem; }
 
 .navigation__checkbox:checked ~ .navigation__background {
   transform: scale(80); }
@@ -174,8 +182,9 @@ body {
       font-weight: 700;
       transition: all 0.5s ease-in-out;
       animation: wave 5s ease-in-out infinite;
-      background-image: linear-gradient(to right, #1a5e63, #00bfb2);
+      background-image: linear-gradient(to top, #1a5e63, #00bfb2);
       -webkit-background-clip: text;
+      background-clip: text;
       color: transparent;
       letter-spacing: 0.2rem;
       transition: all 0.2s; }

@@ -73,13 +73,18 @@
   &__item {
     margin: 1rem;
   }
+  &__icon-link {
+    width: 3.2rem;
+    height: 3.2rem;
+    margin-right: 1.3rem;
+  }
 
   &__link {
     &:link,
     &:visited {
       display: inline-block;
-      font-size: 3rem;
-      font-weight: 300;
+      font-size: 4rem;
+      font-weight: 400;
       padding: 1rem 2rem;
       color: $color-white;
       text-decoration: none;
@@ -91,6 +96,7 @@
       );
       background-size: 220%;
       transition: all 0.4s;
+      border-radius: 2rem;
 
       span {
         margin-right: 1.5rem;
@@ -103,6 +109,8 @@
       background-position: 100%;
       color: $color-primary;
       transform: translateX(1rem);
+      outline: none;
+      border-radius: 5rem;
     }
   }
 
@@ -215,12 +223,13 @@
       animation: wave 5s ease-in-out infinite;
 
       background-image: linear-gradient(
-        to right,
+        to top,
         $color-primary-dark,
         $color-primary-light
       );
 
       -webkit-background-clip: text;
+      background-clip: text;
       color: transparent;
       letter-spacing: 0.2rem;
       transition: all 0.2s;
@@ -254,6 +263,9 @@
     }
   }
 }
+/////////////////////
+// A N I M A T I O N
+////////////////////
 @keyframes wave {
   0%,
   100% {
