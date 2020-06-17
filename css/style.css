@@ -153,16 +153,17 @@ body {
     height: 22vw;
     border-radius: 50%;
     overflow: hidden;
-    border: 1rem solid #028090;
+    border: 1.7rem solid #028090;
     position: relative;
-    margin-right: -4rem; }
+    margin-right: -7rem; }
     .content__photo img {
       width: 100%;
       height: 100%;
       object-fit: cover; }
   .content__text {
     color: #262626;
-    text-align: center; }
+    text-align: center;
+    position: relative; }
     .content__text-primary {
       font-size: 8rem;
       font-weight: 300;
@@ -170,16 +171,29 @@ body {
     .content__text-secondary {
       font-size: 2rem; }
     .content__text-special {
-      font-weight: 700; }
+      font-weight: 700;
+      transition: all 0.5s ease-in-out;
+      animation: wave 5s ease-in-out infinite; }
   .content__links {
     margin-top: 2rem; }
-    .content__links-button {
-      color: #1a5e63; }
-      .content__links-button:not(:last-child) {
-        margin-right: 3rem; }
+    .content__links-button:not(:last-child) {
+      margin-right: 3rem; }
     .content__links-icon {
-      width: 2.8rem;
-      height: 2.8rem;
+      width: 3.2rem;
+      height: 3.2rem;
       transition: all 0.2s ease-in-out; }
       .content__links-icon:hover {
-        transform: translateY(-1rem); }
+        transform: translateY(-0.8rem); }
+      .content__links-icon-1 {
+        color: #1a5e63; }
+      .content__links-icon-2 {
+        color: #028090; }
+      .content__links-icon-3 {
+        color: #00bfb2; }
+
+@keyframes wave {
+  0%,
+  100% {
+    clip-path: polygon(0 13%, 14% 12%, 27% 19%, 35% 32%, 51% 34%, 60% 37%, 71% 26%, 83% 17%, 91% 12%, 100% 6%, 100% 99%, 1% 99%); }
+  50% {
+    clip-path: polygon(0 28%, 12% 38%, 26% 38%, 38% 20%, 49% 10%, 59% 9%, 71% 13%, 79% 32%, 90% 38%, 100% 42%, 100% 99%, 1% 99%); } }

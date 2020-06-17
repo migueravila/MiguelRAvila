@@ -187,9 +187,9 @@
     height: 22vw;
     border-radius: 50%;
     overflow: hidden;
-    border: 1rem solid $color-primary;
+    border: 1.7rem solid $color-primary;
     position: relative;
-    margin-right: -4rem;
+    margin-right: -7rem;
 
     & img {
       width: 100%;
@@ -200,6 +200,7 @@
   &__text {
     color: $color-grey-dark-1;
     text-align: center;
+    position: relative;
     &-primary {
       font-size: 8rem;
       font-weight: 300;
@@ -210,24 +211,70 @@
     }
     &-special {
       font-weight: 700;
+      transition: all 0.5s ease-in-out;
+      animation: wave 5s ease-in-out infinite;
     }
   }
+
   &__links {
     margin-top: 2rem;
 
     &-button {
-      color: $color-primary-dark;
       &:not(:last-child) {
         margin-right: 3rem;
       }
     }
     &-icon {
-      width: 2.8rem;
-      height: 2.8rem;
+      width: 3.2rem;
+      height: 3.2rem;
       transition: all 0.2s ease-in-out;
       &:hover {
-        transform: translateY(-1rem);
+        transform: translateY(-0.8rem);
+      }
+      &-1 {
+        color: $color-primary-dark;
+      }
+      &-2 {
+        color: $color-primary;
+      }
+      &-3 {
+        color: $color-primary-light;
       }
     }
+  }
+}
+@keyframes wave {
+  0%,
+  100% {
+    clip-path: polygon(
+      0 13%,
+      14% 12%,
+      27% 19%,
+      35% 32%,
+      51% 34%,
+      60% 37%,
+      71% 26%,
+      83% 17%,
+      91% 12%,
+      100% 6%,
+      100% 99%,
+      1% 99%
+    );
+  }
+  50% {
+    clip-path: polygon(
+      0 28%,
+      12% 38%,
+      26% 38%,
+      38% 20%,
+      49% 10%,
+      59% 9%,
+      71% 13%,
+      79% 32%,
+      90% 38%,
+      100% 42%,
+      100% 99%,
+      1% 99%
+    );
   }
 }
