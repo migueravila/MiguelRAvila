@@ -10,7 +10,7 @@
   height: 4.25rem;
   margin-left: 2rem;
   padding: 3.5rem 1rem;
-  @media only screen and (max-width: $bp-small) {
+  @media only screen and (max-width: $bp-medium) {
     height: 6rem;
   }
 }
@@ -34,7 +34,7 @@
     box-shadow: 0 1rem 3rem rgba($color-black, 0.4);
     text-align: center;
     cursor: pointer;
-    @media only screen and (max-width: $bp-small) {
+    @media only screen and (max-width: $bp-medium) {
       height: 6rem;
       width: 6rem;
     }
@@ -53,7 +53,7 @@
     );
     z-index: 1000;
     transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
-    @media only screen and (max-width: $bp-small) {
+    @media only screen and (max-width: $bp-medium) {
       height: 5rem;
       width: 5rem;
     }
@@ -138,7 +138,7 @@
   &__icon {
     position: relative;
     margin-top: 2.5rem;
-    @media only screen and (max-width: $bp-small) {
+    @media only screen and (max-width: $bp-medium) {
       margin-top: 3rem;
     }
 
@@ -222,6 +222,12 @@
       height: 32vw;
       margin-bottom: 2rem;
     }
+    @media only screen and (max-width: $bp-small) {
+      margin: auto;
+      width: 36%;
+      height: 36vw;
+      margin-bottom: 2rem;
+    }
 
     & img {
       width: 100%;
@@ -242,7 +248,7 @@
       font-weight: 300;
       margin-bottom: 1rem;
       @media only screen and (max-width: $bp-smallest) {
-        font-size: 6rem;
+        font-size: 6.2rem;
       }
     }
     &-secondary {
@@ -272,6 +278,9 @@
 
   &__links {
     margin-top: 2rem;
+    @media only screen and (max-width: $bp-medium) {
+      margin-top: 3rem;
+    }
 
     &-button {
       &:not(:last-child) {
@@ -282,6 +291,10 @@
       width: 3.2rem;
       height: 3.2rem;
       transition: all 0.2s ease-in-out;
+      @media only screen and (max-width: $bp-medium) {
+        width: 4.5rem;
+        height: 4.5rem;
+      }
       &:hover {
         transform: translateY(-0.8rem);
       }

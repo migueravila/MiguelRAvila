@@ -31,7 +31,7 @@ body {
   height: 4.25rem;
   margin-left: 2rem;
   padding: 3.5rem 1rem; }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 56.25em) {
     .logo {
       height: 6rem; } }
 
@@ -50,7 +50,7 @@ body {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.4);
   text-align: center;
   cursor: pointer; }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 56.25em) {
     .navigation__button {
       height: 6rem;
       width: 6rem; } }
@@ -65,7 +65,7 @@ body {
   background-image: radial-gradient(#1a5e63, #00bfb2);
   z-index: 1000;
   transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1); }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 56.25em) {
     .navigation__background {
       height: 5rem;
       width: 5rem; } }
@@ -130,7 +130,7 @@ body {
 .navigation__icon {
   position: relative;
   margin-top: 2.5rem; }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 56.25em) {
     .navigation__icon {
       margin-top: 3rem; } }
   .navigation__icon, .navigation__icon::before, .navigation__icon::after {
@@ -190,6 +190,12 @@ body {
         width: 32%;
         height: 32vw;
         margin-bottom: 2rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .content__photo {
+        margin: auto;
+        width: 36%;
+        height: 36vw;
+        margin-bottom: 2rem; } }
     .content__photo img {
       width: 100%;
       height: 100%;
@@ -208,7 +214,7 @@ body {
       margin-bottom: 1rem; }
       @media only screen and (max-width: 31.25em) {
         .content__text-primary {
-          font-size: 6rem; } }
+          font-size: 6.2rem; } }
     .content__text-secondary {
       font-size: 2rem; }
     .content__text-special {
@@ -226,12 +232,19 @@ body {
           display: block; } }
   .content__links {
     margin-top: 2rem; }
+    @media only screen and (max-width: 56.25em) {
+      .content__links {
+        margin-top: 3rem; } }
     .content__links-button:not(:last-child) {
       margin-right: 3rem; }
     .content__links-icon {
       width: 3.2rem;
       height: 3.2rem;
       transition: all 0.2s ease-in-out; }
+      @media only screen and (max-width: 56.25em) {
+        .content__links-icon {
+          width: 4.5rem;
+          height: 4.5rem; } }
       .content__links-icon:hover {
         transform: translateY(-0.8rem); }
       .content__links-icon-1 {
