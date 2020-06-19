@@ -65,7 +65,7 @@
             </p>
           </div>
           <div class="content__text-secondary">
-            A Software Engineer Student
+            A <span class="changing">Software Engineer Student</span>
           </div>
           <div class="content__links">
             <a
@@ -94,8 +94,12 @@
         </div>
       </main>
     </div>
+    <script src="build/typed.js"></script>
     <script>
       feather.replace();
+      var typed = new Typed("#typed", {
+        stringsElement: "#typed-strings",
+      });
     </script>
   </body>
 </html>
