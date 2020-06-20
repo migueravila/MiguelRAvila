@@ -6,8 +6,7 @@ const TypeWriter = function(txtElement, words, wait = 3000) {
     this.wait = parseInt(wait, 10);
     this.type();
     this.isDeleating = false;
-}
-// Type Method 
+} 
 TypeWriter.prototype.type = function() {
     const current = this.wordIndex % this.words.length;
     const fullTxt = this.words[current];
@@ -36,9 +35,7 @@ TypeWriter.prototype.type = function() {
 
     setTimeout(() => this.type(), typeSpeed);
 }
-// Init on DOM Load
 document,addEventListener('DOMContentLoaded', init);
-// Init app
 function init() {
     const txtElement = document.querySelector('.txt-type');
     const words = JSON.parse(txtElement.getAttribute('data-words'));
