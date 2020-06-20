@@ -252,7 +252,7 @@
       }
     }
     &-secondary {
-      font-size: 2rem;
+      font-size: 3rem;
     }
     &-special {
       font-weight: 700;
@@ -277,7 +277,7 @@
   }
 
   .txt-type > .txt {
-    border-right: 0.2rem solid black;
+    border-right: 0.3rem solid $color-primary-light;
   }
 
   &__links {
