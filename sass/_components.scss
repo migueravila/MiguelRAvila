@@ -276,6 +276,10 @@
     }
   }
 
+  .txt-type > .txt {
+    border-right: 0.2rem solid black;
+  }
+
   &__links {
     margin-top: 2rem;
     @media only screen and (max-width: $bp-medium) {
