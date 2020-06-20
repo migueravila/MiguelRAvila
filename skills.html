@@ -3,9 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="css/style.css"">
+    <link rel=" shortcut icon" type="image/png" href="img/favicon.png" />
+    <title>Skills</title>
+
 </head>
 <body>
-    
+    <header class="header">
+        <img src="img/logo.svg" alt="MiguelRAvila Logo" class="logo" />
+        <div class="navigation">
+          <input
+            type="checkbox"
+            class="navigation__checkbox"
+            id="navi-toggle"
+          />
+
+          <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+          </label>
+
+          <div class="navigation__background">&nbsp;</div>
+
+          <nav class="navigation__nav">
+            <ul class="navigation__list">
+              <li class="navigation__item">
+                <a href="#" class="navigation__link"
+                  ><i class="navigation__icon-link" data-feather="home"></i
+                  >Home</a
+                >
+              </li>
+              <li class="navigation__item">
+                <a href="about" class="navigation__link"
+                  ><i class="navigation__icon-link" data-feather="zap"></i
+                  >About me</a
+                >
+              </li>
+              <li class="navigation__item">
+                <a href="skills" class="navigation__link"
+                  ><i class="navigation__icon-link" data-feather="target"></i
+                  >Skills</a
+                >
+              </li>
+              <li class="navigation__item">
+                <a href="projects" class="navigation__link"
+                  ><i class="navigation__icon-link" data-feather="briefcase"></i
+                  >Projects</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
 </body>
 </html>
