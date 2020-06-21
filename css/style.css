@@ -283,6 +283,8 @@ body {
     .about__text-p {
       margin-bottom: 2rem;
       text-align: justify; }
+    .about__text-special {
+      color: #028090; }
 
 @keyframes wave {
   0%,
