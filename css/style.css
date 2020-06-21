@@ -278,12 +278,15 @@ body {
       .about__title {
         display: block; } }
   .about__text {
+    color: #262626;
     width: 60%;
-    font-size: 2em; }
+    font-size: 2.3em; }
     .about__text-p {
+      font-weight: 500;
       margin-bottom: 2rem;
       text-align: justify; }
     .about__text-special {
+      font-weight: 700;
       color: #028090; }
 
 @keyframes wave {

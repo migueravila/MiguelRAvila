@@ -344,13 +344,16 @@
       }
   }
   &__text {
+    color: $color-grey-dark-1;
     width: 60%;
-    font-size: 2em;
+    font-size: 2.3em;
     &-p {
+      font-weight: 500;
       margin-bottom: 2rem;
       text-align: justify;
     }
     &-special {
+      font-weight: 700;
       color: $color-primary;
     }
   }
