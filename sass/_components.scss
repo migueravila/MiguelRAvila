@@ -325,11 +325,13 @@
   justify-content: center;
   width: 100%;
   &__title {
-    font-size: 8rem;
+    font-size: 6.5rem;
     font-weight: 700;
     margin-bottom: 4rem;
     transition: all 0.5s ease-in-out;
     animation: wave 5s ease-in-out infinite;
+
+    
 
     background-image: linear-gradient(
       to top,
@@ -342,18 +344,24 @@
     color: transparent;
     letter-spacing: 0.2rem;
     transition: all 0.2s;
+
     @media only screen and (max-width: $bp-small) {
-      display: block;
+      font-size: 6.2rem;
     }
+    
   }
+  
   &__text {
     color: $color-grey-dark-1;
     width: 60%;
-    font-size: 2.3em;
+    font-size: 2.5rem;
     &-p {
       font-weight: 500;
       margin-bottom: 2rem;
       text-align: justify;
+      @media only screen and (max-width: $bp-small) {
+        font-size: 2.2rem;
+      }
     }
     &-special {
       font-weight: 700;
@@ -368,7 +376,7 @@
   justify-content: center;
   width: 100%;
   &__title {
-    font-size: 8rem;
+    font-size: 6.5rem;
     font-weight: 700;
     margin-bottom: 4rem;
     transition: all 0.5s ease-in-out;
@@ -385,9 +393,11 @@
     color: transparent;
     letter-spacing: 0.2rem;
     transition: all 0.2s;
-    @media only screen and (max-width: $bp-small) {
-      display: block;
+
+    @media only screen and (max-width: $bp-smallest) {
+      font-size: 6rem;
     }
+    
   }
 }
 /////////////////////
