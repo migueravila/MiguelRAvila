@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
       rel="stylesheet"
@@ -11,56 +11,73 @@
     <link rel="stylesheet" href="css/style.css"">
     <link rel=" shortcut icon" type="image/png" href="img/favicon.png" />
     <title>About me</title>
-
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <img src="img/logo.svg" alt="MiguelRAvila Logo" class="logo" />
-        <div class="navigation">
-          <input
-            type="checkbox"
-            class="navigation__checkbox"
-            id="navi-toggle"
-          />
+      <img src="img/logo.svg" alt="MiguelRAvila Logo" class="logo" />
+      <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
 
-          <label for="navi-toggle" class="navigation__button">
-            <span class="navigation__icon">&nbsp;</span>
-          </label>
+        <label for="navi-toggle" class="navigation__button">
+          <span class="navigation__icon">&nbsp;</span>
+        </label>
 
-          <div class="navigation__background">&nbsp;</div>
+        <div class="navigation__background">&nbsp;</div>
 
-          <nav class="navigation__nav">
-            <ul class="navigation__list">
-              <li class="navigation__item">
-                <a href="index" class="navigation__link"
-                  ><i class="navigation__icon-link" data-feather="home"></i
-                  >Home</a
-                >
-              </li>
-              <li class="navigation__item">
-                <a href="#" class="navigation__link"
-                  ><i class="navigation__icon-link" data-feather="zap"></i
-                  >About me</a
-                >
-              </li>
-              <!-- <li class="navigation__item">
+        <nav class="navigation__nav">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="index" class="navigation__link"
+                ><i class="navigation__icon-link" data-feather="home"></i
+                >Home</a
+              >
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link"
+                ><i class="navigation__icon-link" data-feather="zap"></i>About
+                me</a
+              >
+            </li>
+            <!-- <li class="navigation__item">
                 <a href="skills" class="navigation__link"
                   ><i class="navigation__icon-link" data-feather="target"></i
                   >Skills</a
                 >
               </li> -->
-              <li class="navigation__item">
-                <a href="projects" class="navigation__link"
-                  ><i class="navigation__icon-link" data-feather="briefcase"></i
-                  >Projects</a
-                >
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-      <script>
-        feather.replace();
-      </script>
-</body>
+            <li class="navigation__item">
+              <a href="projects" class="navigation__link"
+                ><i class="navigation__icon-link" data-feather="briefcase"></i
+                >Projects</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <main class="about">
+          <div class="about__title"></div>
+          <div class="about__text">
+            <div class="about__text-p">
+              Hello! I'm Miguel, an student of Software Engineering, a
+              Hufflepuff and a very pasionated student that loves learning and
+              reading about. almost everything
+            </div>
+            <div class="about__text-p">
+              My starting point in programming was in High School when I signed
+              up for OMI contest and have my first experience about competitive
+              programming. Then I started to study about Web Development and
+              design.
+            </div>
+            <div class="about__text-p">
+              After all these years, I've just fell in love, I found an area
+              where knowledge is unlimited, where there's always something to
+              learn about. You can bet I'm always studying about languages and
+              techonologies like Python or Javascript.
+            </div>
+          </div>
+        </main>
+      </div>
+    </header>
+    <script>
+      feather.replace();
+    </script>
+  </body>
 </html>
