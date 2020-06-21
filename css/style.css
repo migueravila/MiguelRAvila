@@ -217,19 +217,6 @@ body {
           font-size: 6.2rem; } }
     .content__text-secondary {
       font-size: 3rem; }
-    .content__text-special {
-      font-weight: 700;
-      transition: all 0.5s ease-in-out;
-      animation: wave 5s ease-in-out infinite;
-      background-image: linear-gradient(to top, #1a5e63, #00bfb2);
-      -webkit-background-clip: text;
-      background-clip: text;
-      color: transparent;
-      letter-spacing: 0.2rem;
-      transition: all 0.2s; }
-      @media only screen and (max-width: 37.5em) {
-        .content__text-special {
-          display: block; } }
   .content .txt-type > .txt {
     border-right: 0.3rem solid #00bfb2; }
   .content__links {
@@ -256,27 +243,27 @@ body {
       .content__links-icon-3 {
         color: #00bfb2; }
 
+.text-special {
+  font-size: 8rem;
+  font-weight: 700;
+  transition: all 0.5s ease-in-out;
+  animation: wave 5s ease-in-out infinite;
+  background-image: linear-gradient(to top, #1a5e63, #00bfb2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  letter-spacing: 0.2rem;
+  transition: all 0.2s; }
+  @media only screen and (max-width: 37.5em) {
+    .text-special {
+      display: block; } }
+
 .about {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%; }
-  .about__title {
-    font-size: 8em;
-    font-weight: 700;
-    margin-bottom: 4rem;
-    transition: all 0.5s ease-in-out;
-    animation: wave 5s ease-in-out infinite;
-    background-image: linear-gradient(to top, #1a5e63, #00bfb2);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    letter-spacing: 0.2rem;
-    transition: all 0.2s; }
-    @media only screen and (max-width: 37.5em) {
-      .about__title {
-        display: block; } }
   .about__text {
     color: #262626;
     width: 60%;
