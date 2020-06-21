@@ -253,6 +253,7 @@
     }
     &-secondary {
       font-size: 3rem;
+      margin-bottom: 3rem;
     }
     &-special {
       font-size: 8rem;
@@ -273,6 +274,7 @@
       transition: all 0.2s;
       @media only screen and (max-width: $bp-small) {
         display: block;
+        font-size: 6.2rem;
       }
     }
   }
@@ -282,9 +284,9 @@
   }
 
   &__links {
-    margin-top: 2rem;
+    margin-bottom: 1rem;
     @media only screen and (max-width: $bp-medium) {
-      margin-top: 3rem;
+      margin: 3rem 0;
     }
 
     &-button {

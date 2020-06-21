@@ -212,7 +212,8 @@ body {
         .index__text-primary {
           font-size: 6.2rem; } }
     .index__text-secondary {
-      font-size: 3rem; }
+      font-size: 3rem;
+      margin-bottom: 3rem; }
     .index__text-special {
       font-size: 8rem;
       font-weight: 700;
@@ -226,14 +227,15 @@ body {
       transition: all 0.2s; }
       @media only screen and (max-width: 37.5em) {
         .index__text-special {
-          display: block; } }
+          display: block;
+          font-size: 6.2rem; } }
   .index .txt-type > .txt {
     border-right: 0.3rem solid #00bfb2; }
   .index__links {
-    margin-top: 2rem; }
+    margin-bottom: 1rem; }
     @media only screen and (max-width: 56.25em) {
       .index__links {
-        margin-top: 3rem; } }
+        margin: 3rem 0; } }
     .index__links-button:not(:last-child) {
       margin-right: 3rem; }
     .index__links-icon {
