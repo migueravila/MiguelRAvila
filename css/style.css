@@ -312,6 +312,12 @@ body {
     @media only screen and (max-width: 31.25em) {
       .projects__title {
         font-size: 6rem; } }
+  .projects__pcontainer {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
 
 @keyframes wave {
   0%,

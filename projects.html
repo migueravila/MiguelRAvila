@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
       rel="stylesheet"
@@ -11,59 +11,101 @@
     <link rel="stylesheet" href="css/style.css"">
     <link rel=" shortcut icon" type="image/png" href="img/favicon.png" />
     <title>Projects</title>
-
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <img src="img/logo.svg" alt="MiguelRAvila Logo" class="logo" />
-        <div class="navigation">
-          <input
-            type="checkbox"
-            class="navigation__checkbox"
-            id="navi-toggle"
-          />
+      <img src="img/logo.svg" alt="MiguelRAvila Logo" class="logo" />
+      <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
 
-          <label for="navi-toggle" class="navigation__button">
-            <span class="navigation__icon">&nbsp;</span>
-          </label>
+        <label for="navi-toggle" class="navigation__button">
+          <span class="navigation__icon">&nbsp;</span>
+        </label>
 
-          <div class="navigation__background">&nbsp;</div>
+        <div class="navigation__background">&nbsp;</div>
 
-          <nav class="navigation__nav">
-            <ul class="navigation__list">
-              <li class="navigation__item">
-                <a href="index" class="navigation__link"
-                  ><i class="navigation__icon-link" data-feather="home"></i
-                  >Home</a
-                >
-              </li>
-              <li class="navigation__item">
-                <a href="about" class="navigation__link"
-                  ><i class="navigation__icon-link" data-feather="zap"></i
-                  >About me</a
-                >
-              </li>
-              <!-- <li class="navigation__item">
+        <nav class="navigation__nav">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="index" class="navigation__link"
+                ><i class="navigation__icon-link" data-feather="home"></i
+                >Home</a
+              >
+            </li>
+            <li class="navigation__item">
+              <a href="about" class="navigation__link"
+                ><i class="navigation__icon-link" data-feather="zap"></i>About
+                me</a
+              >
+            </li>
+            <!-- <li class="navigation__item">
                 <a href="skills" class="navigation__link"
                   ><i class="navigation__icon-link" data-feather="target"></i
                   >Skills</a
                 >
               </li> -->
-              <li class="navigation__item">
-                <a href="#" class="navigation__link"
-                  ><i class="navigation__icon-link" data-feather="briefcase"></i
-                  >Projects</a
-                >
-              </li>
-            </ul>
-          </nav>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link"
+                ><i class="navigation__icon-link" data-feather="briefcase"></i
+                >Projects</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="projects">
+      <div class="projects__title">(My Projects)</div>
+      <div class="projects__pcontainer">
+        <div class="project">
+          <div class="project__img">
+            <img src="img/profile-photo.jpg" alt="index-photo" />
+          </div>
+          <div class="project__text">
+            <div class="project__title">TOBARA</div>
+            <div class="project__description">
+              TOBARA (The Only Boolean Algebra Reduction App) is a toolkit of
+              Boolean function analysis whose main task is to reduce Boolean
+              functions as much as possible. Our objetive is to determine
+              information about the function like variables, terms and then
+              reduce the function.
+            </div>
+            <div class="project__buttons"></div>
+          </div>
         </div>
-      </header>
-      <main class="projects">
-        <div class="projects__title">(My Projects)</div>
-      </main>
-      <script>
-        feather.replace();
-      </script>
-</body>
+        <div class="project">
+          <div class="project__img">
+            <img src="img/profile-photo.jpg" alt="index-photo" />
+          </div>
+          <div class="project__text">
+            <div class="project__title">McManjaro</div>
+            <div class="project__description">
+              A Relaxed KDE Plasma global theme based on Manjaro and MacOS. This
+              one is a personal project I made for myself in contribuiton to the
+              opensource community. This project has been uploaded by the Arch
+              Community to the AUR and was highly voted in Reddit.
+            </div>
+            <div class="project__buttons"></div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project__img">
+            <img src="img/profile-photo.jpg" alt="index-photo" />
+          </div>
+          <div class="project__text">
+            <div class="project__title">SimplerentFox</div>
+            <div class="project__description">
+              A theme for Firefox and Thunderbird completely transparent. This
+              one is a project I made for a simplicity look in the web browsers.
+              This project was oriented for an enhanced version of Firefox.
+            </div>
+            <div class="project__buttons"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script>
+      feather.replace();
+    </script>
+  </body>
 </html>
