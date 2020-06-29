@@ -328,6 +328,9 @@ body {
   padding: 3rem;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.4);
   transition: all 0.3s ease-in-out; }
+  @media only screen and (max-width: 56.25em) {
+    .project {
+      flex-direction: column; } }
   .project--1 {
     background-image: linear-gradient(to bottom, #00bfb2, #028090); }
   .project--2 {
@@ -337,24 +340,24 @@ body {
   .project:hover {
     transform: translateY(-1rem); }
   .project__img {
-    width: 20rem;
-    height: 20rem;
+    width: 23rem;
+    height: 23rem;
     border-radius: 50%;
     overflow: hidden;
     position: relative;
     margin-right: -7rem;
-    border: 1.3rem solid #fff; }
+    border: 0.8rem solid #fff; }
     @media only screen and (max-width: 56.25em) {
       .project__img {
         margin: auto;
-        width: 32%;
-        height: 32vw;
+        width: 20rem;
+        height: 20rem;
         margin-bottom: 2rem; } }
     @media only screen and (max-width: 37.5em) {
       .project__img {
         margin: auto;
-        width: 36%;
-        height: 36vw;
+        width: 30rem;
+        height: 30rem;
         margin-bottom: 2rem; } }
     .project__img img {
       width: 100%;
@@ -372,9 +375,14 @@ body {
     text-align: left;
     font-weight: 700; }
   .project__description {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     text-align: justify;
-    max-width: 80%; }
+    max-width: 80%;
+    font-weight: 500;
+    margin: 1.2rem 0; }
+    @media only screen and (max-width: 56.25em) {
+      .project__description {
+        font-size: 2rem; } }
   .project__buttons {
     margin-top: 3rem;
     margin-bottom: 1rem; }
@@ -388,9 +396,17 @@ body {
   border-radius: 2.5rem;
   border: 0.3rem solid #fff;
   padding: 1.5rem;
-  margin-right: 1.5rem;
   font-weight: 700;
   transition: all 0.3s ease-in-out; }
+  .btn:not(:last-child),
+  .btn:link:not(:last-child),
+  .btn:visited:not(:last-child) {
+    margin-right: 1.5rem; }
+  @media only screen and (max-width: 56.25em) {
+    .btn,
+    .btn:link,
+    .btn:visited {
+      font-size: 1.7rem; } }
   .btn:hover,
   .btn:link:hover,
   .btn:visited:hover {
