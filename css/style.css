@@ -313,7 +313,6 @@ body {
       .projects__title {
         font-size: 6rem; } }
   .projects__pcontainer {
-    margin-top: 5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -324,16 +323,27 @@ body {
   align-items: center;
   justify-content: space-between;
   margin: 2rem 0;
-  border: 2px red solid;
-  width: 65vw; }
+  width: 65vw;
+  border-radius: 2rem;
+  padding: 3rem;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease-in-out; }
+  .project--1 {
+    background-image: linear-gradient(to bottom, #2c3e50, #1a5e63); }
+  .project--2 {
+    background-image: linear-gradient(to bottom, #1a5e63, #028090); }
+  .project--3 {
+    background-image: linear-gradient(to bottom, #028090, #00bfb2); }
+  .project:hover {
+    transform: translateY(-1rem); }
   .project__img {
     width: 20rem;
     height: 20rem;
     border-radius: 50%;
     overflow: hidden;
-    border: 1.3rem solid #028090;
     position: relative;
-    margin-right: -7rem; }
+    margin-right: -7rem;
+    border: 1.3rem solid #fff; }
     @media only screen and (max-width: 56.25em) {
       .project__img {
         margin: auto;
@@ -355,14 +365,16 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 50vw; }
+    width: 50vw;
+    color: #fff; }
   .project__title {
     font-size: 5rem;
-    text-align: left; }
+    text-align: left;
+    font-weight: 700; }
   .project__description {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     text-align: justify;
-    max-width: 50%; }
+    max-width: 80%; }
 
 @keyframes wave {
   0%,
