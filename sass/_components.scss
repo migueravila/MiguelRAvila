@@ -466,8 +466,8 @@
     }
     @media only screen and (max-width: $bp-small) {
       margin: auto;
-      width: 30rem;
-      height: 30rem;
+      width: 25rem;
+      height: 25rem;
       margin-bottom: 2rem;
     }
 
@@ -484,6 +484,9 @@
     justify-content: center;
     width: 50vw;
     color: $color-white;
+    @media only screen and (max-width: $bp-small) {
+      width: 80vw;
+    }
   }
   &__title {
     font-size: 5rem;
