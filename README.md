@@ -9,10 +9,6 @@ I'm a software engineer student 👨‍💻, a design lover 💡 and a very pasi
 - 🌎 Mostly active in the OpenSource and Web Development Community.
 - 📖 Love reading about philosophy.
 
-![Github stats](https://github-readme-stats.vercel.app/api?username=miguelravila&hide=issues)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=miguelravila&layout=compact)](http://miguelravila.me/)
-
-
 [![Gmail Badge](https://img.shields.io/badge/-miguellravila@gmail.com-c14438?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:miguellravila@gmail.com)](mailto:miguellravila@gmail.com ) [![Linkedin Badge](https://img.shields.io/badge/-miguellravila-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/MiguelRAvila/)](https://www.linkedin.com/in/miguellravila/) [![Twitter Badge](https://img.shields.io/badge/-@miguellravila-1ca0f1?style=for-the-badge&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/_miguelrravila_)](https://twitter.com/miguellravila) 
 
 > Aim for the moon. If you miss, you may hit a star. 🌟
