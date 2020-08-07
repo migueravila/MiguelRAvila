@@ -3,8 +3,8 @@
 I'm a software engineer student 👨‍💻, a design lover 💡 and a very pasionated person, interested in opensource projects and web development 
 🖥️. Here's [My Web Portfolio 💙](http://miguelravila.me) 
 
-- 🚀 Working on CSS, HTML, Javascript and C 
-- 🌱 Currently learning about NodeJS, React and Rust
+- 🚀 Working on CSS, HTML, Javascript, C and Rust
+- 🌱 Currently learning about NodeJ and React
 - 💭 Let's talk about: Design, OpenSource and Web Development!
 - 🌎 Mostly active in the OpenSource and Web Development Community.
 - 📖 Love reading about philosophy.
