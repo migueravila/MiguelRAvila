@@ -1,6 +1,6 @@
 # Hi! I'm Miguel 👋
 
-I'm a software engineer student 👨‍💻, a design lover 💡 and a very pasionated person, interested in opensource projects and web development 
+I'm a software **engineer student** 👨‍💻, a **design lover** 💡 and a very **pasionated person**, interested in opensource projects and web development 
 🖥️. Here's [My Web Portfolio 💙](http://miguelravila.me) 
 
 - 🚀 Working on CSS, HTML, Javascript, C and Rust
