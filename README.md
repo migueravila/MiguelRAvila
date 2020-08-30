@@ -4,7 +4,7 @@ I'm a software **engineer student** 👨‍💻, a **design lover** 💡 and a v
 🖥️. 
 
 - 🚀 Working on CSS, HTML, Javascript, C and Rust
-- 🌱 Currently learning about NodeJ and React
+- 🌱 Currently learning about NodeJS and React
 - 💭 Let's talk about: Design, OpenSource and Web Development!
 - 🌎 Mostly active in the OpenSource and Web Development Community.
 - 📖 Love reading about philosophy.
