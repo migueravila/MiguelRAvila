@@ -18,4 +18,3 @@ Here's [My Web Portfolio 💙](http://miguelravila.me)
 
 > Aim for the moon. If you miss, you may hit a star. 🌟
 >   ~ W. Clement Stone
----
