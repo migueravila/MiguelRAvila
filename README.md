@@ -6,8 +6,8 @@
 I'm a **software engineer student** 👨‍💻, a **design lover** 💡 and a very **pasionated person**, interested in opensource projects and web development 
 🖥️. 
 
-- 🚀 Working on CSS, HTML, Javascript, C and Rust
-- 🌱 Currently learning about NodeJS and React
+- 🚀 Working on Web Development, Javascript, C and Rust
+- 🌱 Currently learning about NodeJS, Java and React
 - 💭 Let's talk about: Design, OpenSource and Web Development!
 - 🌎 Mostly active in the OpenSource and Web Development Community.
 - 📖 Love reading about philosophy.
