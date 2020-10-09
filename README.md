@@ -11,6 +11,7 @@ I'm a **software engineer student** 👨‍💻, a **design lover** 💡 and a v
 - 💭 Let's talk about: Design, OpenSource and Web Development!
 - 🌎 Mostly active in the OpenSource and Web Development Community.
 - 📖 Love reading about philosophy.
+- ⚡ [WorkshopTechnology](https://github.com/WorkshopTechnology) Coordinator
 
 
 
