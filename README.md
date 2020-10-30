@@ -1,6 +1,6 @@
 # Hi! I'm Miguel 👋
 
-[![Linkedin Badge](https://img.shields.io/badge/-miguellravila-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/MiguelRAvila/)](https://www.linkedin.com/in/miguellravila/) [![Twitter Badge](https://img.shields.io/badge/-@miguellravila-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/_miguelrravila_)](https://twitter.com/miguellravila) 
+[![Linkedin Badge](https://img.shields.io/badge/-miguellravila-blue?style=flat-square&logo=Linkedin&logoColor=white&color=141414&link=https://www.linkedin.com/in/MiguelRAvila/)](https://www.linkedin.com/in/miguellravila/) [![Twitter Badge](https://img.shields.io/badge/-@miguellravila-1ca0f1?style=flat-square&labelColor=1ca0f1&color=141414&logo=twitter&logoColor=white&link=https://twitter.com/_miguelrravila_)](https://twitter.com/miguellravila) 
 
 I'm a **software engineer student** 👨‍💻, a **design lover** 💡 and a very **pasionated person**, interested in opensource projects and web development 
 🖥️. 
