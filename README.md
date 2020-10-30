@@ -15,5 +15,5 @@ I'm a software engineer student 👨‍💻, a design lover 💡 and a very pasi
 - 📖 Love reading about philosophy.
 
 > Aim for the moon. If you miss, you may hit a star. 🌟
->   - W. Clement Stone
+>   - -W. Clement Stone
 ---
