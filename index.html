@@ -1,117 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
-    <script src="https://unpkg.com/feather-icons"></script>
-    <link rel="stylesheet" href="css/style.css"">
-    <link rel=" shortcut icon" type="image/png" href="img/favicon.png" />
-    <title>Miguel R. Ávila</title>
-  </head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+            rel="stylesheet"
+        />
+        <script src="https://unpkg.com/feather-icons"></script>
+        <link rel="stylesheet" href="css/style.css"">
+        <link rel=" shortcut icon" type="image/png" href="img/favicon.png" />
+        <title>Miguel R. Ávila</title>
+    </head>
 
-  <body>
-    <div class="container">
-      <header class="header">
-        <img src="img/logo.svg" alt="MiguelRAvila Logo" class="logo" />
-        <div class="navigation">
-          <input
-            type="checkbox"
-            class="navigation__checkbox"
-            id="navi-toggle"
-          />
+    <body>
+        <div class="container">
+            <header class="header">
+                <img src="img/logo.svg" alt="MiguelRAvila Logo" class="logo" />
+            </header>
+            <main class="index">
+                
+                <div class="index__photo">
+                    <img src="img/profile-photo.jpg" alt="index-photo" />
+                </div>
 
-          <label for="navi-toggle" class="navigation__button">
-            <span class="navigation__icon">&nbsp;</span>
-          </label>
-
-          <div class="navigation__background">&nbsp;</div>
-
-          <nav class="navigation__nav">
-            <ul class="navigation__list">
-              <li class="navigation__item">
-                <a href="#" class="navigation__link"
-                  ><i class="navigation__icon-link" data-feather="home"></i
-                  >Home</a
-                >
-              </li>
-              <li class="navigation__item">
-                <a href="about" class="navigation__link"
-                  ><i class="navigation__icon-link" data-feather="zap"></i>About
-                  me</a
-                >
-              </li>
-              <!-- <li class="navigation__item">
-                <a href="skills" class="navigation__link"
-                  ><i class="navigation__icon-link" data-feather="target"></i
-                  >Skills</a
-                >
-              </li> -->
-              <li class="navigation__item">
-                <a href="projects" class="navigation__link"
-                  ><i class="navigation__icon-link" data-feather="briefcase"></i
-                  >Projects</a
-                >
-              </li>
-            </ul>
-          </nav>
+                <div class="index__text">
+                    <div class="index__text-primary">
+                        <p>
+                            I'm
+                            <span class="index__text-special"
+                                >Miguel R. Ávila</span
+                            >
+                        </p>
+                    </div>
+                    <div class="index__text-secondary">
+                        A
+                        <span
+                            class="txt-type"
+                            data-wait="2000"
+                            data-words='["Software Engineering Student", "Web Developer", "Motivated Person", "Design Lover"]'
+                        ></span>
+                    </div>
+                    <div class="index__links">
+                        <a
+                            target="blank"
+                            href="https://www.linkedin.com/in/miguellravila/"
+                            class="index__links-button"
+                            ><i
+                                class="index__links-icon index__links-icon-1"
+                                data-feather="linkedin"
+                            ></i
+                        ></a>
+                        <a
+                            href="https://github.com/MiguelRAvila"
+                            target="blank"
+                            class="index__links-button"
+                            ><i
+                                class="index__links-icon index__links-icon-2"
+                                data-feather="github"
+                            ></i
+                        ></a>
+                        <a
+                            target="blank"
+                            href="https://twitter.com/miguellravila"
+                            class="index__links-button"
+                            ><i
+                                class="index__links-icon index__links-icon-3"
+                                data-feather="twitter"
+                            ></i
+                        ></a>
+                    </div>
+                </div>
+            </main>
         </div>
-      </header>
-      <main class="index">
-        <div class="index__photo">
-          <img src="img/profile-photo.jpg" alt="index-photo" />
-        </div>
-
-        <div class="index__text">
-          <div class="index__text-primary">
-            <p>I'm <span class="index__text-special">Miguel R. Ávila</span></p>
-          </div>
-          <div class="index__text-secondary">
-            A
-            <span
-              class="txt-type"
-              data-wait="2000"
-              data-words='["Software Engineering Student", "Web Developer", "Motivated Person", "Design Lover"]'
-            ></span>
-          </div>
-          <div class="index__links">
-            <a
-              target="blank"
-              href="https://www.linkedin.com/in/miguellravila/"
-              class="index__links-button"
-              ><i
-                class="index__links-icon index__links-icon-1"
-                data-feather="linkedin"
-              ></i
-            ></a>
-            <a
-              href="https://github.com/MiguelRAvila"
-              target="blank"
-              class="index__links-button"
-              ><i
-                class="index__links-icon index__links-icon-2"
-                data-feather="github"
-              ></i
-            ></a>
-            <a
-              target="blank"
-              href="https://twitter.com/miguellravila"
-              class="index__links-button"
-              ><i
-                class="index__links-icon index__links-icon-3"
-                data-feather="twitter"
-              ></i
-            ></a>
-          </div>
-        </div>
-      </main>
-    </div>
-    <script src="js/app.js"></script>
-    <script>
-      feather.replace();
-    </script>
-  </body>
+        <script src="js/app.js"></script>
+        <script>
+            feather.replace();
+        </script>
+    </body>
 </html>
