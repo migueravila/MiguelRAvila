@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
             rel="stylesheet"
         />
         <script src="https://unpkg.com/feather-icons"></script>
@@ -14,12 +14,20 @@
     </head>
 
     <body>
-        <div class="container">
+        <section class="intro">
             <header class="header">
-                <img src="img/logo.svg" alt="MiguelRAvila Logo" class="logo" />
+                <nav class="header__navigation">
+                    <a href="#" class="header__navigation-link">Home</a>
+                    <a href="#" class="header__navigation-link">About</a>
+                    <a href="#" class="header__navigation-link">Projects</a>
+
+                    <button class="header__navigation-button" id="themeButton">
+                        <i id="bicon" data-feather="sun"></i>
+                    </button>
+                </nav>
             </header>
+
             <main class="index">
-                
                 <div class="index__photo">
                     <img src="img/profile-photo.jpg" alt="index-photo" />
                 </div>
@@ -37,8 +45,8 @@
                         A
                         <span
                             class="txt-type"
-                            data-wait="2000"
-                            data-words='["Software Engineering Student", "Web Developer", "Motivated Person", "Design Lover"]'
+                            data-wait="1800"
+                            data-words='["Software Engineering Student", "Web Developer", "Motivated Open Sourcerer", "Design Lover"]'
                         ></span>
                     </div>
                     <div class="index__links">
@@ -72,8 +80,46 @@
                     </div>
                 </div>
             </main>
-        </div>
+        </section>
+        <section class="about">
+            <div class="about__text">
+                <div class="about__title">About me</div>
+                <div class="about__text-p">
+                    Hello! I'm <span class="about__text-special">Miguel</span>,
+                    a student of Software Engineering, a Design Lover
+                    <span class="about__text-special2">Really,</span>
+                    and a very pasionated student that loves learning and
+                    reading about everything.
+                </div>
+                <div class="about__text-p">
+                    My starting point in programming was in high school when I
+                    signed up for
+                    <span class="about__text-special">OMI</span> contest and had
+                    my first experience with competitive programming. Then I
+                    studied about Web Development and design.
+                </div>
+                <div class="about__text-p">
+                    After all these years, I've just fell in love with
+                    technology, I found an area where
+                    <span class="about__text-special"
+                        >knowledge is unlimited</span
+                    >, where there's always something to learn about. You can
+                    bet I'm always studying about languages and technologies
+                    like Python or Javascript.
+                </div>
+                <button class="header__navigation-button" id="themeButton">
+                    <a href="mailto:miguelravila@outlook.com"
+                        ><i id="bicon" data-feather="send"></i> Send me a
+                        mail</a
+                    >
+                </button>
+            </div>
+            <div class="about__photo">
+                <img src="img/gallery1.jpg" alt="" />
+            </div>
+        </section>
         <script src="js/app.js"></script>
+        <script src="js/theme.js"></script>
         <script>
             feather.replace();
         </script>

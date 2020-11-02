@@ -1,17 +1,22 @@
-$color-primary: #028090;
-$color-primary-light: #00bfb2;
-$color-primary-dark: #1a5e63;
-$color-primary-darker: #2c3e50;
+:root {
+    --bg: #f5f5f5;
+    --color-primary: #5e81ac;
+    --color-primary-light: #88c0d0;
+    --color-primary-dark: #4c566a;
 
-$color-grey-light-1: #faf9f9;
-$color-grey-light-2: #f5f5f5;
-$color-grey-light-3: #f0eeee;
-$color-grey-light-4: #ccc;
+    --fg: #2e3440;
+    --fg-light: #d8dee9;
+}
 
-$color-grey-dark-1: #262626;
-$color-grey-dark-2: #777;
-$color-grey-dark-3: #999;
-$color-grey-dark-4: #1f1e1e;
+.darktheme {
+    --bg: #292E39;
+    --color-primary: #88c0d0;
+    --color-primary-light: #88c0d0;
+    --color-primary-dark: #4c566a;
+
+    --fg: #d8dee9;
+    --fg-light: #2e3440;
+}
 
 $color-white: #fff;
 $color-black: #000;
@@ -26,23 +31,30 @@ $bp-smallest: 31.25em;
 *,
 *::after,
 *::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    transition: 0.2s ease-in-out;
 }
 
 html {
-  // box-sizing: border-box;
-  font-size: 62.5%;
-  @media only screen and (max-width: $bp-large) {
-    font-size: 50%;
-  }
+    // box-sizing: border-box;
+    font-size: 62.5%;
+    @media only screen and (max-width: $bp-large) {
+        font-size: 50%;
+    }
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  line-height: 1.6;
-  color: $color-grey-dark-2;
-  background-color: #fff;
+
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--fg);
+    background-color: var(--bg)
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
 }

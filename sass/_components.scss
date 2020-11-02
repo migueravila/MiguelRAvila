@@ -2,198 +2,48 @@
 // H E A D E R
 ///////////////
 .header {
+    padding: 3rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
-}
-.logo {
-    height: 4.25rem;
-    margin-left: 2rem;
-    padding: 3.5rem 1rem;
-    @media only screen and (max-width: $bp-medium) {
-        height: 6rem;
-    }
-}
-////////////////////////
-// N A V I G A T I O N
-///////////////////////
-.navigation {
-    &__checkbox {
-        display: none;
-    }
+    margin-bottom: 10rem;
 
-    &__button {
-        background-color: $color-primary;
-        height: 5rem;
-        width: 5rem;
-        position: fixed;
-        top: 3rem;
-        right: 3rem;
-        border-radius: 50%;
-        z-index: 2000;
-        box-shadow: 0 1rem 3rem rgba($color-black, 0.4);
-        text-align: center;
-        cursor: pointer;
-        @media only screen and (max-width: $bp-medium) {
-            height: 6rem;
-            width: 6rem;
-        }
-    }
+    &__navigation {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
 
-    &__background {
-        height: 4rem;
-        width: 4rem;
-        border-radius: 50%;
-        position: fixed;
-        top: 3.5rem;
-        right: 3.5rem;
-        background-image: radial-gradient(
-            $color-primary-dark,
-            $color-primary-light
-        );
-        z-index: 1000;
-        transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
-        @media only screen and (max-width: $bp-medium) {
-            height: 5rem;
-            width: 5rem;
-        }
-    }
-
-    &__nav {
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        left: -50rem;
-        z-index: 1500;
-
-        opacity: 0;
-        width: 0;
-        transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    }
-
-    &__list {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        list-style: none;
-        text-align: center;
-        width: 100%;
-    }
-
-    &__item {
-        margin: 1rem;
-    }
-    &__icon-link {
-        width: 3.2rem;
-        height: 3.2rem;
-        margin-right: 1.3rem;
-    }
-
-    &__link {
-        &:link,
-        &:visited {
-            display: inline-block;
-            font-size: 4rem;
-            font-weight: 400;
-            padding: 1rem 2rem;
-            color: $color-white;
+        &-link {
+            margin-right: 2rem;
             text-decoration: none;
-            background-image: linear-gradient(
-                120deg,
-                transparent 0%,
-                transparent 50%,
-                $color-white 50%
-            );
-            background-size: 220%;
-            transition: all 0.4s;
-            border-radius: 2rem;
+            color: var(--fg);
 
-            span {
-                margin-right: 1.5rem;
-                display: inline-block;
+            font-weight: 300;
+            font-size: 2rem;
+
+            border-radius: 5px;
+            transition: 0.3s all ease-in-out;
+            padding: 0.5rem;
+            &:hover {
+                background-color: var(--fg-light);
             }
         }
 
-        &:hover,
-        &:active {
-            background-position: 100%;
-            color: $color-primary;
-            transform: translateX(1rem);
-            outline: none;
-            border-radius: 5rem;
+        &-button {
+            border: none;
+
+            color: var(--fg);
+
+            cursor: pointer;
+
+            background-color: #00000000;
+
+            -webkit-appearance: none;
+            -moz-appearance: none;
         }
-    }
-
-    &__checkbox:checked ~ &__background {
-        transform: scale(80);
-    }
-
-    &__checkbox:checked ~ &__nav {
-        opacity: 1;
-        width: 100%;
-        left: 0;
-    }
-
-    &__icon {
-        position: relative;
-        margin-top: 2.5rem;
-        @media only screen and (max-width: $bp-medium) {
-            margin-top: 3rem;
-        }
-
-        &,
-        &::before,
-        &::after {
-            width: 3rem;
-            height: 2px;
-            background-color: $color-white;
-            display: inline-block;
-        }
-
-        &::before,
-        &::after {
-            content: '';
-            position: absolute;
-            left: 0;
-            transition: all 0.2s;
-        }
-
-        &::before {
-            top: -0.8rem;
-        }
-        &::after {
-            top: 0.8rem;
-        }
-    }
-
-    &__button:hover &__icon::before {
-        top: -1rem;
-    }
-
-    &__button:hover &__icon::after {
-        top: 1rem;
-    }
-    &__checkbox:checked + &__button {
-        background-color: $color-white;
-    }
-    // &__checkbox:checked + &__button &__icon {
-    //   // background-color: $color-white;
-    // }
-
-    &__checkbox:checked + &__button &__icon::before {
-        top: 0;
-        transform: rotate(135deg);
-        background-color: $color-primary;
-    }
-
-    &__checkbox:checked + &__button &__icon::after {
-        top: 0;
-        transform: rotate(-135deg);
-
-        background-color: $color-primary;
     }
 }
+
 ////////////////
 // M A I N
 ///////////////
@@ -208,13 +58,13 @@
     }
 
     &__photo {
-        width: 22%;
-        height: 22vw;
+        width: 25%;
+        height: 25vw;
         border-radius: 50%;
         overflow: hidden;
-        border: 1.7rem solid $color-primary;
         position: relative;
         margin-right: -7rem;
+        box-shadow: 0 1rem 3rem rgba($color-black, 0.4);
 
         @media only screen and (max-width: $bp-medium) {
             margin: auto;
@@ -236,7 +86,7 @@
         }
     }
     &__text {
-        color: $color-grey-dark-1;
+        color: var(--fg);
         text-align: center;
         position: relative;
 
@@ -255,22 +105,12 @@
         &-secondary {
             font-size: 3rem;
             margin-bottom: 3rem;
+            font-weight: 400;
+            color: var(--color-primary);
         }
         &-special {
             font-size: 8rem;
             font-weight: 700;
-
-            background-image: linear-gradient(
-                to top,
-                $color-primary-dark,
-                $color-primary-light
-            );
-
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-            letter-spacing: 0.2rem;
-            transition: all 0.2s;
             @media only screen and (max-width: $bp-small) {
                 display: block;
                 font-size: 6.2rem;
@@ -278,8 +118,11 @@
         }
     }
 
+    .txt-type {
+        color: var(--color-primary);
+    }
     .txt-type > .txt {
-        border-right: 0.3rem solid $color-primary-light;
+        border-right: 0.3rem solid var(--color-primary-light);
     }
 
     &__links {
@@ -297,62 +140,47 @@
             width: 3.2rem;
             height: 3.2rem;
             transition: all 0.2s ease-in-out;
+            color: var(--fg);
             @media only screen and (max-width: $bp-medium) {
                 width: 4.5rem;
                 height: 4.5rem;
             }
-            &:hover {
-                transform: translateY(-0.8rem);
+            &-1:hover {
+                color: var(--color-primary-dark);
             }
-            &-1 {
-                color: $color-primary-dark;
+            &-2:hover {
+                color: var(--color-primary);
             }
-            &-2 {
-                color: $color-primary;
-            }
-            &-3 {
-                color: $color-primary-light;
+            &-3:hover {
+                color: var(--color-primary-light);
             }
         }
     }
 }
 
 .about {
+    margin-top: 15rem;
+    padding: 10rem;
+
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 100%;
+    justify-content: space-around;
+
     &__title {
-        font-size: 6.5rem;
+        font-size: 2.5rem;
         font-weight: 700;
-        margin-bottom: 4rem;
-        transition: all 0.5s ease-in-out;
-        animation: wave 5s ease-in-out infinite;
-
-        background-image: linear-gradient(
-            to top,
-            $color-primary-dark,
-            $color-primary-light
-        );
-
-        -webkit-background-clip: text;
-        background-clip: text;
-        color: transparent;
-        letter-spacing: 0.2rem;
-        transition: all 0.2s;
-
-        @media only screen and (max-width: $bp-small) {
-            font-size: 6.2rem;
-        }
+        margin-bottom: 1rem;
     }
 
+
     &__text {
-        color: $color-grey-dark-1;
-        width: 60%;
-        font-size: 2.5rem;
+
+        width: 90%;
+
+        color: var(--fg);
+        font-size: 2.2rem;
         &-p {
-            font-weight: 500;
+            font-weight: 400;
             margin-bottom: 2rem;
             text-align: justify;
             @media only screen and (max-width: $bp-small) {
@@ -361,10 +189,29 @@
         }
         &-special {
             font-weight: 700;
-            color: $color-primary;
+            color: var(--color-primary);
+        }
+
+        &-special2 {
+            font-style: italic;
         }
     }
+
+    &__photo {
+        margin-left: 10rem;
+
+        & img {
+            border-radius: .5rem;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            box-shadow: 0 1rem 3rem rgba($color-black, 0.4);
+        }
+    }
+    
 }
+
 
 /////////////////////
 // P R O J E C T S
@@ -385,8 +232,8 @@
 
         background-image: linear-gradient(
             to top,
-            $color-primary-dark,
-            $color-primary-light
+            var(--color-primary)-dark,
+            var(--color-primary)-light
         );
 
         -webkit-background-clip: text;
@@ -424,22 +271,22 @@
     &--1 {
         background-image: linear-gradient(
             to bottom,
-            $color-primary-light,
-            $color-primary
+            var(--color-primary)-light,
+            var(--color-primary)
         );
     }
     &--2 {
         background-image: linear-gradient(
             to bottom,
-            $color-primary,
-            $color-primary-dark
+            var(--color-primary),
+            var(--color-primary)-dark
         );
     }
     &--3 {
         background-image: linear-gradient(
             to bottom,
-            $color-primary-dark,
-            $color-primary-darker
+            var(--color-primary)-dark,
+            var(--color-primary)-darker
         );
     }
 
@@ -528,7 +375,7 @@
 
     &:hover {
         background-color: $color-white;
-        color: $color-primary;
+        color: var(--color-primary);
     }
 }
 /////////////////////
