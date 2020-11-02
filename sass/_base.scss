@@ -1,18 +1,22 @@
 :root {
     --bg: #f5f5f5;
+    --bg-light: #4c566a;
     --color-primary: #5e81ac;
     --color-primary-light: #88c0d0;
-    --color-primary-dark: #4c566a;
+    --color-primary-dark: #577dac;
 
     --fg: #2e3440;
     --fg-light: #d8dee9;
+
+    --transparency: #00000000;
 }
 
 .darktheme {
     --bg: #292E39;
+    --bg-light: #2E3440;
     --color-primary: #88c0d0;
-    --color-primary-light: #88c0d0;
-    --color-primary-dark: #4c566a;
+    --color-primary-light: #96bcc7;
+    --color-primary-dark: #5e81ac;
 
     --fg: #d8dee9;
     --fg-light: #2e3440;
