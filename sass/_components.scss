@@ -57,6 +57,10 @@
         flex-direction: column;
     }
 
+    animation: fadeUp 2s;
+
+
+
     &__photo {
         width: 25%;
         height: 25vw;
@@ -157,6 +161,17 @@
         }
     }
 }
+
+@keyframes fadeUp {
+    from {
+      transform: translatey(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translatey(0);
+      opacity: 1;
+    }
+  }
 
 .about {
     margin-top: 15rem;

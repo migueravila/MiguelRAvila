@@ -76,7 +76,8 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around; }
+  justify-content: space-around;
+  animation: fadeUp 2s; }
   @media only screen and (max-width: 56.25em) {
     .index {
       flex-direction: column; } }
@@ -157,6 +158,14 @@ body {
         color: var(--color-primary); }
       .index__links-icon-3:hover {
         color: var(--color-primary-light); }
+
+@keyframes fadeUp {
+  from {
+    transform: translatey(100%);
+    opacity: 0; }
+  to {
+    transform: translatey(0);
+    opacity: 1; } }
 
 .about {
   margin-top: 15rem;
