@@ -14,112 +14,124 @@
     </head>
 
     <body>
-        <section class="intro">
-            <header class="header">
-                <nav class="header__navigation">
-                    <a href="#" class="header__navigation-link">Home</a>
-                    <a href="#" class="header__navigation-link">About</a>
-                    <a href="#" class="header__navigation-link">Projects</a>
+        <div class="container">
+            <section class="intro" id="intro">
+                <header class="header">
+                    <nav class="header__navigation">
+                        <a href="#intro" class="header__navigation-link"
+                            >Home</a
+                        >
+                        <a href="#about" class="header__navigation-link"
+                            >About</a
+                        >
+                        <a href="#projects" class="header__navigation-link"
+                            >Projects</a
+                        >
 
-                    <button class="header__navigation-button" id="themeButton">
-                        <i id="bicon" data-feather="sun"></i>
-                    </button>
-                </nav>
-            </header>
+                        <button
+                            class="header__navigation-button"
+                            id="themeButton"
+                        >
+                            <i id="bicon" data-feather="sun"></i>
+                        </button>
+                    </nav>
+                </header>
 
-            <main class="index">
-                <div class="index__photo">
-                    <img src="img/profile-photo.jpg" alt="index-photo" />
-                </div>
-
-                <div class="index__text">
-                    <div class="index__text-primary">
-                        <p>
-                            I'm
-                            <span class="index__text-special"
-                                >Miguel R. Ávila</span
-                            >
-                        </p>
+                <main class="index">
+                    <div class="index__photo">
+                        <img src="img/profile-photo.jpg" alt="index-photo" />
                     </div>
-                    <div class="index__text-secondary">
-                        A
-                        <span
-                            class="txt-type"
-                            data-wait="1800"
-                            data-words='["Software Engineering Student", "Web Developer", "Motivated Open Sourcerer", "Design Lover"]'
-                        ></span>
-                    </div>
-                    <div class="index__links">
-                        <a
-                            target="blank"
-                            href="https://www.linkedin.com/in/miguellravila/"
-                            class="index__links-button"
-                            ><i
-                                class="index__links-icon index__links-icon-1"
-                                data-feather="linkedin"
-                            ></i
-                        ></a>
-                        <a
-                            href="https://github.com/MiguelRAvila"
-                            target="blank"
-                            class="index__links-button"
-                            ><i
-                                class="index__links-icon index__links-icon-2"
-                                data-feather="github"
-                            ></i
-                        ></a>
-                        <a
-                            target="blank"
-                            href="https://twitter.com/miguellravila"
-                            class="index__links-button"
-                            ><i
-                                class="index__links-icon index__links-icon-3"
-                                data-feather="twitter"
-                            ></i
-                        ></a>
-                    </div>
-                </div>
-            </main>
-        </section>
-        <section class="about">
-            <div class="about__text">
-                <div class="about__title">About me</div>
-                <div class="about__text-p">
-                    Hello! I'm <span class="about__text-special">Miguel</span>,
-                    a student of Software Engineering, a Design Lover
-                    <span class="about__text-special2">Really,</span>
-                    and a very pasionated student that loves learning and
-                    reading about everything.
-                </div>
-                <div class="about__text-p">
-                    My starting point in programming was in high school when I
-                    signed up for
-                    <span class="about__text-special">OMI</span> contest and had
-                    my first experience with competitive programming. Then I
-                    studied about Web Development and design.
-                </div>
-                <div class="about__text-p">
-                    After all these years, I've just fell in love with
-                    technology, I found an area where
-                    <span class="about__text-special"
-                        >knowledge is unlimited</span
-                    >, where there's always something to learn about. You can
-                    bet I'm always studying about languages and technologies
-                    like Rust and Node.
-                </div>
-                <!-- <button class="about__button" id="themeButton">
-                    <a class="about__button-link" href="mailto:miguelravila@outlook.com"
-                        ><i class="about__button-icon" id="bicon" data-feather="mail"></i> Mail me</a
-                    >
-                </button> -->
-            </div>
-            <div class="about__photo">
-                <img src="img/gallery1.jpg" alt="" />
-            </div>
-        </section>
-        <section class="projects">
 
-        </section>
+                    <div class="index__text">
+                        <div class="index__text-primary">
+                            <p>
+                                I'm
+                                <span class="index__text-special"
+                                    >Miguel R. Ávila</span
+                                >
+                            </p>
+                        </div>
+                        <div class="index__text-secondary">
+                            A
+                            <span
+                                class="txt-type"
+                                data-wait="1800"
+                                data-words='["Software Engineering Student", "Web Developer", "Motivated Open Sourcerer", "Design Lover"]'
+                            ></span>
+                        </div>
+                        <div class="index__links">
+                            <a
+                                target="blank"
+                                href="https://www.linkedin.com/in/miguellravila/"
+                                class="index__links-button"
+                                ><i
+                                    class="index__links-icon index__links-icon-1"
+                                    data-feather="linkedin"
+                                ></i
+                            ></a>
+                            <a
+                                href="https://github.com/MiguelRAvila"
+                                target="blank"
+                                class="index__links-button"
+                                ><i
+                                    class="index__links-icon index__links-icon-2"
+                                    data-feather="github"
+                                ></i
+                            ></a>
+                            <a
+                                target="blank"
+                                href="https://twitter.com/miguellravila"
+                                class="index__links-button"
+                                ><i
+                                    class="index__links-icon index__links-icon-3"
+                                    data-feather="twitter"
+                                ></i
+                            ></a>
+                        </div>
+                    </div>
+                </main>
+            </section>
+            <section class="about" id="about">
+                <div class="about__text">
+                    <div class="about__title">About me</div>
+                    <div class="about__text-p">
+                        Hello! I'm
+                        <span class="about__text-special">Miguel</span>, a
+                        student of Software Engineering, a Design Lover
+                        <span class="about__text-special2">Really,</span>
+                        and a very pasionated student that loves learning and
+                        reading about everything.
+                    </div>
+                    <div class="about__text-p">
+                        My starting point in programming was in high school when
+                        I signed up for
+                        <span class="about__text-special">OMI</span> contest and
+                        had my first experience with competitive programming.
+                        Then I studied about Web Development and design.
+                    </div>
+                    <div class="about__text-p">
+                        After all these years, I've just fell in love with
+                        technology, I found an area where
+                        <span class="about__text-special"
+                            >knowledge is unlimited</span
+                        >, where there's always something to learn about. You
+                        can bet I'm always studying about languages and
+                        technologies like Rust and Node.
+                    </div>
+                    <!-- <button class="about__button" id="themeButton">
+                        <a class="about__button-link" href="mailto:miguelravila@outlook.com"
+                            ><i class="about__button-icon" id="bicon" data-feather="mail"></i> Mail me</a
+                        >
+                    </button> -->
+                </div>
+                <div class="about__photo">
+                    <img src="img/gallery1.jpg" alt="" />
+                </div>
+            </section>
+            <section class="projects" id="projects">
+                <div class="projects__title">My projects</div>
+            </section>
+        </div>
         <script src="js/app.js"></script>
         <script src="js/theme.js"></script>
         <script>
