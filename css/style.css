@@ -181,6 +181,9 @@ body {
   align-items: center;
   justify-content: space-around;
   scroll-snap-align: center; }
+  @media only screen and (max-width: 56.25em) {
+    .about {
+      flex-direction: column; } }
   .about__title {
     font-size: 2.5rem;
     font-weight: 700;
@@ -203,6 +206,10 @@ body {
       font-style: italic; }
   .about__photo {
     margin-left: 10rem; }
+    @media only screen and (max-width: 56.25em) {
+      .about__photo {
+        margin-left: 0;
+        margin-top: 10rem; } }
     .about__photo img {
       border-radius: 0.5rem;
       width: 100%;

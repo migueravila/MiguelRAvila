@@ -175,6 +175,10 @@
     justify-content: space-around;
     scroll-snap-align: center;
 
+    @media only screen and (max-width: $bp-medium) {
+        flex-direction: column;
+    }
+
     &__title {
         font-size: 2.5rem;
         font-weight: 700;
@@ -206,6 +210,11 @@
 
     &__photo {
         margin-left: 10rem;
+
+        @media only screen and (max-width: $bp-medium) {
+            margin-left: 0;
+            margin-top: 10rem;
+        }
 
         & img {
             border-radius: 0.5rem;
