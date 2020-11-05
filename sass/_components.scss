@@ -51,7 +51,7 @@
         flex-direction: column;
     }
 
-    animation: fadeUp 2s;
+    animation: fadeUp 3s;
 
     &__photo {
         width: 25%;
@@ -156,11 +156,11 @@
 
 @keyframes fadeUp {
     from {
-        transform: translatey(100%);
+        transform: opacity(100%);
         opacity: 0;
     }
     to {
-        transform: translatey(0);
+        transform: opacity(0);
         opacity: 1;
     }
 }
@@ -194,8 +194,8 @@
             font-weight: 400;
             margin-bottom: 2rem;
             text-align: justify;
-            @media only screen and (max-width: $bp-small) {
-                font-size: 2.2rem;
+            @media only screen and (max-width: $bp-medium) {
+                font-size: 2rem;
             }
         }
         &-special {
@@ -223,6 +223,11 @@
             object-fit: cover;
             display: block;
             box-shadow: 0 1rem 3rem rgba($color-black, 0.4);
+
+            @media only screen and (max-width: $bp-medium) {
+                width: 100%;
+                height: 100%;
+            }
         }
     }
 
