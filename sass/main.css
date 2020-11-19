@@ -1,6 +1,7 @@
 :root {
   --bg: #f5f5f5;
   --bg-light: #4c566a;
+  --bg-card: #f5f5f5;
   --color-primary: #5e81ac;
   --color-primary-light: #88c0d0;
   --color-primary-dark: #577dac;
@@ -441,5 +442,52 @@ body {
 .projects__container {
   display: -ms-grid;
   display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  grid-gap: 30px;
+  padding: 0rem;
+}
+
+.projects__project {
+  background-color: var(--bg-light);
+  border-radius: 0.5rem;
+}
+
+.project__image {
+  background-size: cover;
+  height: 23rem;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.4);
+          box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.4);
+}
+
+.project__image-1 {
+  background-image: url(../img/project1.png);
+}
+
+.project__image-2 {
+  background-image: url(../img/project2.png);
+}
+
+.project__image-3 {
+  background-image: url(../img/project3.png);
+}
+
+.project__image-4 {
+  background-image: url(../img/project4.png);
+}
+
+.project__image-5 {
+  background-image: url(../img/project5.png);
+}
+
+.project__image-6 {
+  background-image: url(../img/project6.png);
+}
+
+.project__text {
+  padding: 1rem;
 }
 /*# sourceMappingURL=main.css.map */
