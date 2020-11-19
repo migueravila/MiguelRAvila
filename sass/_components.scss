@@ -70,8 +70,8 @@
         }
         @media only screen and (max-width: $bp-small) {
             margin: auto;
-            width: 36%;
-            height: 36vw;
+            width: 45%;
+            height: 45vw;
             margin-bottom: 2rem;
         }
 
@@ -226,7 +226,17 @@
         margin-left: 10rem;
 
         @media only screen and (max-width: $bp-medium) {
-            margin-left: 10rem;
+            margin-left: 5rem;
+            margin-top: 5rem;
+        }
+
+        @media only screen and (max-width: $bp-small) {
+            margin-left: 7rem;
+            margin-top: 5rem;
+        }
+
+        @media only screen and (max-width: $bp-smallest) {
+            margin-left: 5rem;
             margin-top: 5rem;
         }
 
@@ -461,6 +471,8 @@
             width: 2rem;
             height: 2rem;
             margin-right: .5rem;
+
+            color: #EBCB8B;
         }
     }
 

@@ -105,8 +105,8 @@ body {
     @media only screen and (max-width: 37.5em) {
       .index__photo {
         margin: auto;
-        width: 36%;
-        height: 36vw;
+        width: 45%;
+        height: 45vw;
         margin-bottom: 2rem; } }
     .index__photo img {
       width: 100%;
@@ -219,7 +219,15 @@ body {
     margin-left: 10rem; }
     @media only screen and (max-width: 56.25em) {
       .about__photo {
-        margin-left: 10rem;
+        margin-left: 5rem;
+        margin-top: 5rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .about__photo {
+        margin-left: 7rem;
+        margin-top: 5rem; } }
+    @media only screen and (max-width: 31.25em) {
+      .about__photo {
+        margin-left: 5rem;
         margin-top: 5rem; } }
     .about__photo img {
       border-radius: 0.5rem;
@@ -397,7 +405,8 @@ body {
   .project__stars-icon {
     width: 2rem;
     height: 2rem;
-    margin-right: .5rem; }
+    margin-right: .5rem;
+    color: #EBCB8B; }
 
 .project__text {
   padding: 2rem; }
