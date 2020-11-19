@@ -201,9 +201,15 @@
         &-p {
             font-weight: 400;
             margin-bottom: 2rem;
-            text-align: justify;
+            
             @media only screen and (max-width: $bp-medium) {
-                font-size: 2rem;
+                font-size: 2.2rem;
+            }
+        }
+        &-f {
+            font-weight: 400;
+            @media only screen and (max-width: $bp-medium) {
+                display: none;
             }
         }
         &-special {
@@ -438,6 +444,12 @@
         }
     }
 
+    &__head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     &__text {
         padding: 2rem;
         @media only screen and (max-width: $bp-medium) {
@@ -449,13 +461,19 @@
         font-size: 2rem;
         font-weight: 700;
 
-        @media only screen and (max-width: $bp-small) {
+        @media only screen and (max-width: $bp-medium) {
             font-size: 3rem;
         }
     }
 
     &__description {
+
+        margin-top: 1rem;
         font-weight: 300;
         font-size: 1.5rem;
+
+        @media only screen and (max-width: $bp-medium) {
+            font-size: 1.9rem;
+        }
     }
 }

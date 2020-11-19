@@ -201,11 +201,15 @@ body {
     font-size: 2.2rem; }
     .about__text-p {
       font-weight: 400;
-      margin-bottom: 2rem;
-      text-align: justify; }
+      margin-bottom: 2rem; }
       @media only screen and (max-width: 56.25em) {
         .about__text-p {
-          font-size: 2rem; } }
+          font-size: 2.2rem; } }
+    .about__text-f {
+      font-weight: 400; }
+      @media only screen and (max-width: 56.25em) {
+        .about__text-f {
+          display: none; } }
     .about__text-special {
       font-weight: 700;
       color: var(--color-primary); }
@@ -379,6 +383,11 @@ body {
   .project__image-6 {
     background-image: url(../img/project6.png); }
 
+.project__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
 .project__text {
   padding: 2rem; }
   @media only screen and (max-width: 56.25em) {
@@ -388,10 +397,14 @@ body {
 .project__title {
   font-size: 2rem;
   font-weight: 700; }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 56.25em) {
     .project__title {
       font-size: 3rem; } }
 
 .project__description {
+  margin-top: 1rem;
   font-weight: 300;
   font-size: 1.5rem; }
+  @media only screen and (max-width: 56.25em) {
+    .project__description {
+      font-size: 1.9rem; } }
