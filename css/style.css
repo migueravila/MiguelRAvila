@@ -1,7 +1,7 @@
 :root {
-  --bg: #f5f5f5;
+  --bg: #FBFBFC;
   --bg-light: #4c566a;
-  --bg-card: #f5f5f5;
+  --bg-card: #ECEFF4;
   --color-primary: #5e81ac;
   --color-primary-light: #88c0d0;
   --color-primary-dark: #577dac;
@@ -10,10 +10,10 @@
   --transparency: #00000000; }
 
 .darktheme {
-  --bg: #292e39;
+  --bg: #242933;
   --bg-light: #2e3440;
-  --bg-card: #2e3440
-    --color-primary: #88c0d0;
+  --bg-card: #2E3440;
+  --color-primary: #88c0d0;
   --color-primary-light: #96bcc7;
   --color-primary-dark: #5e81ac;
   --fg: #d8dee9;
@@ -256,7 +256,7 @@ body {
   .projects__title {
     font-size: 2.5rem;
     font-weight: 700;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     text-align: right; }
   .projects__container {
     display: grid;
@@ -265,8 +265,11 @@ body {
     grid-gap: 30px;
     padding: 0rem; }
   .projects__project {
-    background-color: var(--bg-light);
-    border-radius: 0.5rem; }
+    background-color: var(--bg-card);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: var(--fg);
+    box-shadow: 0 0.7rem 2rem rgba(0, 0, 0, 0.1); }
     .projects__project-1 {
       grid-row: 1;
       grid-column: 1; }
@@ -288,9 +291,8 @@ body {
 
 .project__image {
   background-size: cover;
-  height: 23rem;
-  border-radius: 0.5rem;
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.4); }
+  height: 20rem;
+  border-radius: 0.5rem; }
   .project__image-1 {
     background-image: url(../img/project1.png); }
   .project__image-2 {
@@ -306,3 +308,11 @@ body {
 
 .project__text {
   padding: 1rem; }
+
+.project__title {
+  font-size: 2rem;
+  font-weight: 700; }
+
+.project__description {
+  font-weight: 300;
+  font-size: 1.5rem; }

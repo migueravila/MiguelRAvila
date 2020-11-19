@@ -279,7 +279,7 @@
     &__title {
         font-size: 2.5rem;
         font-weight: 700;
-        margin-bottom: 5rem;
+        margin-bottom: 3rem;
 
         text-align: right;
     }
@@ -293,8 +293,13 @@
     }
 
     &__project {
-        background-color: var(--bg-light);
+        background-color: var(--bg-card);
         border-radius: 0.5rem;
+
+        text-decoration: none;
+        color: var(--fg);
+
+        box-shadow: 0 .7rem 2rem rgba($color-black, 0.1);
 
         &-1 {
             grid-row: 1;
@@ -320,15 +325,18 @@
             grid-row: 2;
             grid-column: 3;
         }
+
+        &:hover {
+
+        }
     }
 }
 
 .project {
     &__image {
         background-size: cover;
-        height: 23rem;
+        height: 20rem;
         border-radius: 0.5rem;
-        box-shadow: 0 1rem 3rem rgba($color-black, 0.4);
 
         &-1 {
             background-image: url(../img/project1.png);
@@ -352,5 +360,15 @@
 
     &__text {
         padding: 1rem;
+    }
+
+    &__title {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    &__description {
+        font-weight: 300;
+        font-size: 1.5rem;
     }
 }
