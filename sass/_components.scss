@@ -283,4 +283,25 @@
 
         text-align: right;
     }
+
+    &__container {
+        display: grid;
+    }
+}
+
+.project {
+    &__image {
+        &-1 {
+        }
+        &-2 {
+        }
+        &-3 {
+        }
+        &-4 {
+        }
+        &-5 {
+        }
+        &-6 {
+        }
+    }
 }
