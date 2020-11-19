@@ -23,7 +23,7 @@ function getStars(repoName, user, projectNumber) {
             stars = data.stargazers_count;
         })
         .then(function () {
-            projectNumber.innerHTML = `<p > <i id="project__stars-icon" data-feather="star"></i> ${stars} </p>`;
+            projectNumber.innerHTML = `<p class="project__stars" > <i class="project__stars-icon" data-feather="star"></i> ${stars} </p>`;
             feather.replace();
         });
 }

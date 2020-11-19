@@ -388,6 +388,17 @@ body {
   justify-content: space-between;
   align-items: center; }
 
+.project__stars {
+  font-size: 1.5rem;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .project__stars-icon {
+    width: 2rem;
+    height: 2rem;
+    margin-right: .5rem; }
+
 .project__text {
   padding: 2rem; }
   @media only screen and (max-width: 56.25em) {
