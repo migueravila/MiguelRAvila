@@ -1,6 +1,7 @@
 :root {
   --bg: #f5f5f5;
   --bg-light: #4c566a;
+  --bg-card: #f5f5f5;
   --color-primary: #5e81ac;
   --color-primary-light: #88c0d0;
   --color-primary-dark: #577dac;
@@ -11,7 +12,8 @@
 .darktheme {
   --bg: #292e39;
   --bg-light: #2e3440;
-  --color-primary: #88c0d0;
+  --bg-card: #2e3440
+    --color-primary: #88c0d0;
   --color-primary-light: #96bcc7;
   --color-primary-dark: #5e81ac;
   --fg: #d8dee9;
@@ -254,5 +256,53 @@ body {
   .projects__title {
     font-size: 2.5rem;
     font-weight: 700;
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
     text-align: right; }
+  .projects__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 30px;
+    padding: 0rem; }
+  .projects__project {
+    background-color: var(--bg-light);
+    border-radius: 0.5rem; }
+    .projects__project-1 {
+      grid-row: 1;
+      grid-column: 1; }
+    .projects__project-2 {
+      grid-row: 2;
+      grid-column: 1; }
+    .projects__project-3 {
+      grid-row: 1;
+      grid-column: 2; }
+    .projects__project-4 {
+      grid-row: 2;
+      grid-column: 2; }
+    .projects__project-5 {
+      grid-row: 1;
+      grid-column: 3; }
+    .projects__project-6 {
+      grid-row: 2;
+      grid-column: 3; }
+
+.project__image {
+  background-size: cover;
+  height: 23rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.4); }
+  .project__image-1 {
+    background-image: url(../img/project1.png); }
+  .project__image-2 {
+    background-image: url(../img/project2.png); }
+  .project__image-3 {
+    background-image: url(../img/project3.png); }
+  .project__image-4 {
+    background-image: url(../img/project4.png); }
+  .project__image-5 {
+    background-image: url(../img/project5.png); }
+  .project__image-6 {
+    background-image: url(../img/project6.png); }
+
+.project__text {
+  padding: 1rem; }
