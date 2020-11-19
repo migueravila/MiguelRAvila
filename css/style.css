@@ -80,6 +80,7 @@ body {
 .index {
   scroll-snap-align: center;
   margin-top: 8rem;
+  margin-bottom: 10rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -175,9 +176,8 @@ body {
     opacity: 1; } }
 
 .about {
-  margin-top: 10rem;
-  padding: 10rem;
-  padding-top: 15rem;
+  padding: 5rem 10rem;
+  margin-bottom: 10rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -268,7 +268,7 @@ body {
       height: 2rem; }
 
 .projects {
-  padding: 10rem;
+  padding: 3rem 15rem;
   scroll-snap-align: center; }
   @media only screen and (max-width: 56.25em) {
     .projects {
@@ -285,8 +285,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-gap: 30px;
-    padding: 0rem; }
+    grid-gap: 5rem; }
     @media only screen and (max-width: 56.25em) {
       .projects__container {
         grid-template-columns: repeat(2, 1fr);
