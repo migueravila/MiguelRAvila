@@ -42,7 +42,7 @@
 }
 .index {
     scroll-snap-align: center;
-    margin-top:  8rem;
+    margin-top: 8rem;
     margin-bottom: 10rem;
     display: flex;
     flex-direction: row;
@@ -202,7 +202,7 @@
         &-p {
             font-weight: 400;
             margin-bottom: 2rem;
-            
+
             @media only screen and (max-width: $bp-medium) {
                 font-size: 2.2rem;
             }
@@ -300,11 +300,10 @@
 .projects {
     padding: 3rem 15rem;
     scroll-snap-align: center;
-    
+
     @media only screen and (max-width: $bp-medium) {
         padding: 7rem;
     }
-
 
     &__title {
         font-size: 2.5rem;
@@ -470,9 +469,9 @@
         &-icon {
             width: 2rem;
             height: 2rem;
-            margin-right: .5rem;
+            margin-right: 0.5rem;
 
-            color: #EBCB8B;
+            color: #ebcb8b;
         }
     }
 
@@ -493,7 +492,6 @@
     }
 
     &__description {
-
         margin-top: 1rem;
         font-weight: 300;
         font-size: 1.5rem;
