@@ -9,6 +9,6 @@ I'm a **software engineer student** 👨‍💻, a **design lover** 💡 and a v
 - 🌱 Currently learning about NodeJS, Java and DevOps
 - 💭 Let's talk about: Design, OpenSource and Web Development!
 - 📖 Love reading about philosophy.
-- ⚡ [WorkshopTechnology](https://github.com/WorkshopTechnology) Coordinator
+- ⚡ [WorkshopTechnology](https://github.com/WorkshopTechnology) Coordinator & [Lintori](https://github.com/Lintori) Co-founder
 
 > Aim for the moon. If you miss, you may hit a star. 🌟
