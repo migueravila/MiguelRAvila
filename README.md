@@ -5,9 +5,9 @@
 I'm a **software engineer student** 👨‍💻, a **design lover** 🎨 and a very **pasionated person**, interested in opensource projects and web development 
 🖥️. 
 
-- 🚀 Working on Web Development, Javascript, C and Rust
-- 🌱 Currently learning about NodeJS, Java and DevOps
+- 🚀 Working on Web Development, Javascript, C and Rust.
+- 🌱 Currently learning about NodeJS, Java and DevOps.
 - 💭 Let's talk about: Design, OpenSource and Web Development!
 - 📚 Love reading about philosophy.
-- 🌟 [WorkshopTechnology](https://github.com/WorkshopTechnology) General Coordinator
-- ⛩️ [Lintori](https://github.com/Lintori) Co-founder
+- 🌟 [WorkshopTechnology](https://github.com/WorkshopTechnology) General Coordinator.
+- ⛩️ [Lintori](https://github.com/Lintori) Co-founder.
