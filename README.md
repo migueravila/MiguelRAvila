@@ -6,7 +6,7 @@ I'm a **software engineer student** 👨‍💻, a **design lover** 🎨 and a v
 🖥️. 
 
 - 🚀 Working on Web Development, Javascript, C and Rust.
-- 🌱 Currently learning about NodeJS, Java and DevOps.
+- 🌱 Currently learning about Jenkins, React and Project Management.
 - 💭 Let's talk about: Design, OpenSource and Web Development!
 - 📚 Love reading about philosophy.
 - 🌟 [WorkshopTechnology](https://github.com/WorkshopTechnology) General Coordinator.
