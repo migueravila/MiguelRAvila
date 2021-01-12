@@ -7,7 +7,6 @@ I'm a **software engineer student** 👨‍💻, a **design lover** 🎨 and a v
 
 - 🚀 Working on Web Development, Javascript, C and Rust.
 - 🌱 Currently learning about Jenkins, React and Project Management.
-- 💭 Let's talk about: Design, OpenSource and Web Development!
 - 🍵 Love reading about philosophy and drink tea.
 - 🌟 General Coordinator of an incredible organization called [Workshop](https://github.com/WorkshopTechnology).
 - ⛩️ [Lintori](https://github.com/Lintori) Co-founder.
