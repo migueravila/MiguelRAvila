@@ -18,7 +18,6 @@
   </a>
 </p>
 
-
 I'm a **software engineer student** 👨‍💻, a **design lover** 🎨 and a very **pasionated person**, interested in opensource projects and web development 
 🖥️. 
 
