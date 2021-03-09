@@ -1,7 +1,7 @@
 ### Hi, I'm Miguel! <img src="https://raw.githubusercontent.com/MiguelRAvila/MiguelRAvila/master/img/profile/wave.gif" width="24px">
 
 <p style="margin: -20px 0 30px">
-      <a href="https://www.linkedin.com/in/miguellravila/" target="_blank" style='margin-right:0px'>
+  <a href="https://www.linkedin.com/in/migueravila/" target="_blank" style='margin-right:0px'>
     <img align="center" src="https://github.com/MiguelRAvila/MiguelRAvila/blob/master/img/profile/Linkedind.png" alt="stackoverflow" height="30px" width="30px" />
   </a>
   &nbsp;
